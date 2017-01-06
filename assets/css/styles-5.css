@@ -31,11 +31,11 @@ a {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -ms-transition: .5s;
-  -o-transition: .5s;
-  transition: .5s;
+  -webkit-transition: .5s !important;
+  -moz-transition: .5s !important;
+  -ms-transition: .5s !important;
+  -o-transition: .5s !important;
+  transition: .5s !important;
 }
 a:hover {
   text-decoration: none;
