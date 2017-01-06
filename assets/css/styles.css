@@ -31,9 +31,14 @@ a {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #1a454f;
 }
 a:focus {
